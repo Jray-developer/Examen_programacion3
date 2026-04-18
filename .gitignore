@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Python (archivos compilados y temporales)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pruebas (Pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Base de datos local (si se crea un archivo .db)
+*.db
+*.sqlite3
+
+# VS Code / IDEs
+.vscode/
+.idea/
